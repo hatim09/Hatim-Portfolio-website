@@ -1,0 +1,57 @@
+@use "../../styles/partials/colors" as *;
+
+.landing {
+  &__img-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  &__overlay {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    text-align: center;
+  }
+
+  &__name {
+    color: $White;
+    font-size: 4rem;
+  }
+
+  &__subtext {
+    color: $DarkBlack;
+    font-size: 2rem;
+  }
+
+  &__description {
+    color: $Alabaster;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+
+  &__button {
+    margin-top: 2rem;
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: $DarkBlue;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    &:hover {
+        background-color: $Blue;
+        border: none;
+    }
+  }
+}

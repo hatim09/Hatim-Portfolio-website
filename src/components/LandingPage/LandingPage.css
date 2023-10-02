@@ -1,0 +1,49 @@
+.landing__img-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.landing__overlay {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  text-align: center;
+}
+.landing__name {
+  color: #FFFFFF;
+  font-size: 4rem;
+}
+.landing__subtext {
+  color: #000000;
+  font-size: 2rem;
+}
+.landing__description {
+  color: #FAFAFA;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+.landing__button {
+  margin-top: 2rem;
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+  background-color: #0065AD;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+.landing__button:hover {
+  background-color: #0095FF;
+  border: none;
+}/*# sourceMappingURL=LandingPage.css.map */
