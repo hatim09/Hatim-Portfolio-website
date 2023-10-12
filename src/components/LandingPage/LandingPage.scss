@@ -42,7 +42,7 @@
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #fff;
+    color: $White;
     background-color: $DarkBlue;
     border: 1px solid black;
     border-radius: 5px;
@@ -53,5 +53,11 @@
         background-color: $Blue;
         border: none;
     }
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $White;
+    
   }
 }

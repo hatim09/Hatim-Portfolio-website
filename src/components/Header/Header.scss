@@ -1,0 +1,32 @@
+@use "../../styles/partials/colors" as *;
+
+.header {
+  background-color: $DarkBlack;
+  color: $White;
+  padding: 1.5rem;
+  border-bottom: 0.5rem solid $DarkBlue;
+}
+
+.navbar {
+
+    &__list {
+        list-style: none;
+        display: flex;
+        padding-left: 13rem;
+    }
+
+    &__item {
+        padding-right: 6rem;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: $White;
+    }
+}
+
+.active {
+    color: $Blue;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid $Alabaster;
+}

@@ -1,5 +1,6 @@
 import "./LandingPage.scss";
 import Landing from "../../assets/Images/landing.jpg";
+import { Link } from "react-router-dom";
 
 const LandingPage = () => {
   return (
@@ -13,7 +14,9 @@ const LandingPage = () => {
             Hi there! Take a peek  
           </div>
           <div className="landing__button-container">
-            <button className="landing__button">VIEW PORTFOLIO</button>
+            <button className="landing__button">
+              <Link className="landing__link" to="/Projects">VIEW PORTFOLIO</Link>
+              </button>
           </div>
         </div>
       </div>

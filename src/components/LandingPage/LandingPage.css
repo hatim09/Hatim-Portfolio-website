@@ -34,7 +34,7 @@
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #fff;
+  color: #FFFFFF;
   background-color: #0065AD;
   border: 1px solid black;
   border-radius: 5px;
@@ -46,4 +46,8 @@
 .landing__button:hover {
   background-color: #0095FF;
   border: none;
+}
+.landing__link {
+  text-decoration: none;
+  color: #FFFFFF;
 }/*# sourceMappingURL=LandingPage.css.map */
